@@ -14,11 +14,7 @@ const Page1 = () => {
       <div className="flex flex-row gap-10">
         {/* Картинка зліва */}
         <div className="flex justify-start">
-          <img
-            src={require("../img/image 5.png")}
-            alt="logo2"
-            className="w-1/1 h-auto"
-          />
+          <img src="../img/image 5.png" alt="logo2" className="w-1/1 h-auto" />
         </div>
 
         {/* Список справа */}

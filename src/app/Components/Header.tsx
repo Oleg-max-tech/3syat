@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center bg-yellow-400 text-white p-4 shadow-lg">
       <img
-        src={require("../Components/img/logo.png")}
+        src="../Components/img/logo.png"
         alt="logo company"
         className="w-24 h-auto"
       />

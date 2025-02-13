@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import "./globals.css";
 import Header from "./Components/Header";
 
@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="uk">
       <body className="flex flex-col min-h-screen">
         <Header />
-        {children}
+        <main>{children}</main>
       </body>
     </html>
   );

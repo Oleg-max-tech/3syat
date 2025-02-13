@@ -1,5 +1,5 @@
 import React from "react";
-import WorkStages from "../WorkStages"; // Припустимо, що компонент WorkStages є у вас на Page2
+import WorkStages from "../Components/WorkStages"; // Припустимо, що компонент WorkStages є у вас на Page2
 
 const steps = [
   {
@@ -33,9 +33,10 @@ const steps = [
   },
 ];
 
-const Page3 = () => {
+const PageThree = () => {
   return (
-    <div className="px-6 pt-5 pb-20 lg:px-10">
+    <div className="px-6 pt-5 pb-20 lg:px-10 bg-white  text-black">
+      {/* Заголовок */}
       <h1 className="font-bold text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-10 mt-10 relative">
         Корпоративний сайт
         <span className="absolute top-0 left-1/2 lg:left-0 w-10 h-10 sm:w-12 sm:h-12 border-4 border-yellow-400 rounded-full -z-10"></span>
@@ -97,4 +98,4 @@ const Page3 = () => {
   );
 };
 
-export default Page3;
+export default PageThree;

@@ -1,5 +1,5 @@
 import React from "react";
-import WorkStages from "../WorkStages";
+import WorkStages from "../Components/WorkStages";
 
 const steps = [
   {
@@ -33,9 +33,9 @@ const steps = [
   },
 ];
 
-const Page2 = () => {
+const PageTwo = () => {
   return (
-    <div className="pl-10 pt-5 pb-20 lg:px-10">
+    <div className="pl-10 pt-5 pb-20 lg:px-10 bg-white  text-black">
       {/* Заголовок */}
       <h1 className="font-bold text-3xl sm:text-4xl lg:text-5xl text-center lg:text-left mb-10 mt-10 relative">
         Лендінг
@@ -87,4 +87,4 @@ const Page2 = () => {
   );
 };
 
-export default Page2;
+export default PageTwo;

@@ -1,5 +1,5 @@
 import React from "react";
-import WorkStages from "../WorkStages"; // Підключення компонента WorkStages
+import WorkStages from "../WorkStages";
 
 const steps = [
   {
